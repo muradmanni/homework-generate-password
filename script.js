@@ -7,9 +7,6 @@ const charLower = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','
 const numbers = ['0','1','2','3','4','5','6','7','8','9']
 const charSpecial = ['!','"','#','$','%','&','(',')','*','+',',','-','.','/',':',';','<','=','>','?','@','[','^',']','_','{','|','}','~']
 
-//This array variable will merge/concatinate all orther array with user selected inputs.
-var selectedOptions=[];
-
 // Variables for user options of password
 var passLength;
 var lowercaseRequired;
@@ -27,7 +24,12 @@ function writePassword() {
 
 function generatePassword()
 {
+  //This array variable will merge/concatinate all orther array with user selected inputs.
+  var selectedOptions=[];
+  //This variable will concatinate single random characters and returned to writePassword function
   var pass="";
+  
+  
   //This do while loop will run until the given requirement of password length minimum 8 or maximum 128 is not met.
   //This will also check if the given input is number or not.
   do{
