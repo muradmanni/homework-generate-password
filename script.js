@@ -34,6 +34,8 @@ function generatePassword()
   //This will also check if the given input is number or not.
   do{
     passLength = prompt("Please provide character length for the password.\n\nMinimum 8 to 128 maximum.");
+    if (passLength===null)  //if user wants to cancel and not go ahead with generating random password
+      return "";
   }while(passLength<8 || passLength>128 || isNaN(parseInt(passLength)));
 
 
@@ -72,6 +74,7 @@ function generatePassword()
   }
 
 
+  
   //For loop up until the length of password as required by USER.
   //Generating a random number which then used as index of the array which contains all the required options selected by user.
   //The character at that index, then concatinated with a variable pass.
