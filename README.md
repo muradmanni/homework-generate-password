@@ -34,25 +34,33 @@ https://github.com/muradmanni/homework-generate-password
 
 
 ## Layout
+    Screen 1 : Main page.
    ![screenshot of the webpage](assets/images/screenshot1.jpg)
 
+    Screen 2: When generate password button pressed and prompt asking for password length. The input must be form 8 to 128 in order to move to next screen.
    ![screenshot of the webpage](assets/images/screenshot2.jpg)
    
+    Screen 3: Displaying options for random password.
    ![screenshot of the webpage](assets/images/screenshot3.jpg)
 
+    Screen 4: Getting user input for lowercase option in random password.
    ![screenshot of the webpage](assets/images/screenshot4.jpg)
-
+    
+    Screen 5: Getting user input for uppercase option in random password.
    ![screenshot of the webpage](assets/images/screenshot5.jpg)
 
+    Screen 6: Getting user input for number option in random password.
    ![screenshot of the webpage](assets/images/screenshot6.jpg)
 
+    Screen 7: Getting user input for special character option in random password.
    ![screenshot of the webpage](assets/images/screenshot7.jpg)
 
+    Screen 8: Displaying random generated password with all the required options selected by user.
    ![screenshot of the webpage](assets/images/screenshot8.jpg)
 
 ## Credits
 
-I did alot of research using Google.com and found some free sample images to use. (www.freepik.com)
+I did some research using Google.com.
 
 ## License
 
